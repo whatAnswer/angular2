@@ -1,0 +1,16 @@
+div {
+    width: 100%;
+    height: 62px;
+    background-color: #7b7b7b;
+}
+ul {
+    margin-top: 0px;
+}
+ul li{
+    float: left;
+    list-style-type:none;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    cursor: default;
+}

@@ -1,0 +1,24 @@
+<div class="playpage">
+    <div class="bad-video">
+        <video poster="img/play.png" width="800" height="500" controls>
+            <!--<source src="" type="video/mp4"></source>-->
+            <source src="horse.ogg" type="video/ogg">
+            <source src="../../assets/video/video.mp4" type="video/mp4">
+            <p>设备不支持</p>
+        </video>
+    </div>
+    <div class="scrollDIV">
+        <div id="scroll-1">
+            <div>
+                <ul *ngFor="let channelname of channelNames">
+                    <li>{{channelname}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="recm">
+          
+    </div>
+
+</div>

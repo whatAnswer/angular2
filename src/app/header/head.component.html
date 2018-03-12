@@ -1,0 +1,18 @@
+<div>
+    <span class="myloge"></span>
+    <div (mouseenter)="mouseenter()" (mouseleave)="mouseleave()" class="dropDown">DROPDOWN
+        <ul class="drop" *ngIf="shoDrop" >
+            <li>
+                <a routerLink="/home" [routerLinkActive]="['aaaaactive']" [routerLinkActiveOptions]="['{exact:true}']">Home</a>
+            </li>
+            <li>
+                <a routerLink="/playpage" [routerLinkActive]="['aaaaactive']" [routerLinkActiveOptions]="['{exact:true}']">PlayPage</a>
+            </li>  
+            <li>
+                LiveTV
+            </li>   
+        </ul>
+    </div>
+    <app-search></app-search>
+    <app-profile></app-profile>
+</div>

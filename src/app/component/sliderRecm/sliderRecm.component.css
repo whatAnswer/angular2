@@ -1,0 +1,55 @@
+
+.outSideDiv{
+    width: 1077px;
+    overflow: hidden;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+ul {
+    width: 5000px;  
+}
+li {
+    float: left;
+    position: relative;
+}
+.img{
+    width: 270px;
+    height: 180px;
+}
+
+.img img{
+    width: 260px;
+    height: 180px;
+}
+.leftIcon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7b7b7b;
+    float: left;
+    margin-top: 75px;
+    margin-left: 69px;
+}
+.rightIcon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7b7b7b;
+    float: right;
+    margin-top: -100px;
+    margin-right: 111px;
+}
+.prograss{
+    width: 260px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    bottom: 1px;
+    opacity: 0.3;
+}
+.prograssRed{
+    background-color: red;
+    position: absolute;
+    height: 5px;
+    width: 200px;
+}

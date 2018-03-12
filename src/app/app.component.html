@@ -1,0 +1,15 @@
+<nav>
+  <app-head></app-head>
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+  <div *ngIf="isShowLogin">
+      <app-login ></app-login>
+  </div>
+</main>
+ 
+<footer>
+  <app-foot></app-foot>
+</footer>
+

@@ -1,0 +1,16 @@
+<div>
+    <div class="leftIcon" (click)="clickLeft()"></div>
+    <div class="outSideDiv">
+        <ul id="transUl">
+            <li class="page" *ngFor="let url of imgs">
+                <div class="img">
+                    <img src={{url}}>
+                    <div class="prograss">
+                        <div class="prograssRed"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="rightIcon" (click)="clickRight()"></div>
+</div>

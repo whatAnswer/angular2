@@ -1,0 +1,66 @@
+.playpage{
+    margin-top: 20px;
+    padding-left: 100px;
+    width: 800px;
+    height: 500px;
+    /*background-color: #B7B7B7;*/
+}
+.bad-video{
+    position: relative;
+    /*left: -100px;
+    top: -25px;*/
+}
+
+video{
+    background-color: #B7B7B7;
+}
+.scrollDIV{
+    margin-top: 20px;
+    width: 227px;
+    height: 475px;
+    background-color: transparent; 
+    position: absolute;
+    top: 64px;
+    right: 214px;
+}
+
+#scroll-1 {
+    width: 227px;
+    height: 475px;
+    overflow:auto;
+}
+#scroll-1 div {
+    width:200px;
+    height:400px;
+}    
+#scroll-1::-webkit-scrollbar {
+    width:10px;
+    height:10px;
+}
+#scroll-1::-webkit-scrollbar-button    {
+    height: 2px;
+    background-color:#FF7677;
+}
+#scroll-1::-webkit-scrollbar-track     {
+    background:#FF66D5;
+}
+#scroll-1::-webkit-scrollbar-track-piece {
+    background:#ff0000;
+}
+#scroll-1::-webkit-scrollbar-thumb{
+    background:#FFA711;
+    border-radius:4px;
+}
+#scroll-1::-webkit-scrollbar-corner {
+    background:#82AFFF;
+}
+#scroll-1::-webkit-scrollbar-resizer  {
+    background:#FF0BEE;
+}
+ul li{
+    margin: auto;
+    height: 32px;
+    background-color: #82AFFF;
+    border-bottom: 1px solid #FF0BEE;
+    line-height: 32px;
+}
